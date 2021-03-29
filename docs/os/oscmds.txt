@@ -1,19 +1,9 @@
-sudo apt update
-sudo apt upgrade
-sudo apt dist-upgrade
-sudo apt-get install build-essential curl file git
-sudo apt install wget
-
-sudo apt-get update && sudo apt-get install -y curl build-essential libssl-dev pkg-config
-curl https://sh.rustup.rs -sSf | sh
-export PATH=$HOME/.cargo/bin:$PATH
-cargo install --features=ssl websocat
-
-
-
-
-
 sudo apt update && sudo apt -y upgrade
+sudo apt dist-upgrade
+sudo apt-get install -y  build-essential curl file git wget libssl-dev pkg-config
+
+
+
 sudo apt-get install -y kubuntu-desktop or sudo apt install ubuntu-desktop gnome
 sudo apt-get install xrdp
 sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
@@ -21,6 +11,7 @@ sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
 sudo sed -i 's/max_bpp=32/#max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini
 sudo sed -i 's/xserverbpp=24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini
 sudo systemctl enable dbus
+sudo systemctl enable xrdp
 sudo /etc/init.d/dbus start
 sudo /etc/init.d/xrdp start
 # check xrdp status
@@ -38,3 +29,7 @@ node
 sudo apt-get --yes install cuda-toolkit-11-0 cuda-toolkit-10-2
 sudo apt-get install --yes --no-install-recommends cuda-10-2 libcudnn7=7.6.5.32-1+cuda10.2 libcudnn7-dev=7.6.5.32-1+cuda10.2
 sudo apt-get install --yes --no-install-recommends libnvinfer6=6.0.1-1+cuda10.2 libnvinfer-dev=6.0.1-1+cuda10.2 libnvinfer-plugin6=6.0.1-1+cuda10.2
+
+curl https://sh.rustup.rs -sSf | sh
+export PATH=$HOME/.cargo/bin:$PATH
+cargo install --features=ssl websocat

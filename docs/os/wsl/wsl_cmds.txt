@@ -1,0 +1,5 @@
+wsl --export Ubuntu E:\downloads\Softwares\linux\wsl2\Ubentu20.tar
+wsl --import Ubuntu E:\downloads\Softwares\linux\wsl2\Ubentu20.tar
+\\wsl$
+wsl --list
+wsl --shutdown

@@ -18,6 +18,5 @@
 
    ideally one has to use
    test if this url works wss://xx.xx.xx.xx:3000/ e.g wss://172.17.27.101:3000/ <use command ip address to know the ip address of linux machine>
-    websocat -k wss://172.29.67.41/:3000
-    https://172.29.67.41:8080/
-
+   wscat -n wss://172.29.67.41/:3000
+   https://172.29.67.41:8080/

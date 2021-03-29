@@ -6,3 +6,5 @@ npm list
 npm outdated --depth=3
 
 npm fund
+
+npm install -g wscat
