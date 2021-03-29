@@ -1,8 +1,9 @@
 sudo apt update && sudo apt -y upgrade
 sudo apt dist-upgrade
-sudo apt-get install -y  build-essential curl file git wget libssl-dev pkg-config
-
-
+sudo apt-get install -y  build-essential curl file git wget libssl-dev pkg-config net-tools
+sudo ifconfig eth0 192.160.1.5 netmask 255.255.255.0 up
+sudo route add default gw 192.160.1.1
+ip addr show
 
 sudo apt-get install -y kubuntu-desktop or sudo apt install ubuntu-desktop gnome
 sudo apt-get install xrdp
@@ -22,7 +23,6 @@ npm
 node
 
 
-
 #sudo apt install ubuntu-restricted-extras
 
 
@@ -33,3 +33,5 @@ sudo apt-get install --yes --no-install-recommends libnvinfer6=6.0.1-1+cuda10.2 
 curl https://sh.rustup.rs -sSf | sh
 export PATH=$HOME/.cargo/bin:$PATH
 cargo install --features=ssl websocat
+
+192.160.1.5:3390

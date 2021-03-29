@@ -1,0 +1,20 @@
+systemctl list-unit-files --type=service
+
+sudo touch /etc/init.d/superscript
+sudo chmod 755 /etc/init.d/superscript
+
+sudo /etc/init.d/superscript start
+
+sudo update-rc.d superscript defaults
+
+find /etc/rc*.d -name superscript
+
+superscript.sh contents
+
+#!/bin/bash
+sudo ifconfig eth0 192.160.1.5 netmask 255.255.255.0 up
+sudo route add default gw 192.160.1.1
+sudo ip addr show
+
+sudo /etc/init.d/dbus start
+sudo /etc/init.d/xrdp start
