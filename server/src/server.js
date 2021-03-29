@@ -1,7 +1,8 @@
 const fs = require('fs');
 const https = require('https');
 const WebSocket = require('ws');
-const uuidv1 = require('uuid/v1');
+const { v1: uuidv1 } = require('uuid');
+uuidv1();
 
 const config = require('./config');
 const FFmpeg = require('./ffmpeg');
@@ -20,8 +21,8 @@ const {
 const PROCESS_NAME = process.env.PROCESS_NAME || 'FFmpeg';
 const SERVER_PORT = process.env.SERVER_PORT || 3000;
 const HTTPS_OPTIONS = Object.freeze({
-  cert: fs.readFileSync('./ssl/server.crt'),
-  key: fs.readFileSync('./ssl/server.key')
+  cert: fs.readFileSync('./ssl/cert1.pem'),
+  key: fs.readFileSync('./ssl/privkey1.pem')
 });
 
 const httpsServer = https.createServer(HTTPS_OPTIONS);
