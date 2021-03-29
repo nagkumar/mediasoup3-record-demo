@@ -1,0 +1,23 @@
+1. enter chrome://flags/ in your browser url
+   enable #allow-insecure-localhost
+2. start browser from command line (after closing all the open browsers only otherwise, option is ignored)
+   "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --ignore-certificate-errors
+    If you have started it properly, a notification is shown in browser 'you are using unsupported command line flat etc..'
+
+3. Install PIE SOCket PLUGIN from chrome store
+   https://chrome.google.com/webstore/detail/piesocket-websocket-teste/oilioclnckkoijghdniegedkbocfpnip
+   https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo/related?hl=en
+
+4. Using 127.0.0.1 does not work
+   https://127.0.0.1:8080/
+   wss://127.0.0.1:3000/
+
+   but
+   https://localhost:8080/
+   works..
+
+   ideally one has to use
+   test if this url works wss://xx.xx.xx.xx:3000/ e.g wss://172.17.27.101:3000/ <use command ip address to know the ip address of linux machine>
+    websocat -k wss://172.29.67.41/:3000
+    https://172.29.67.41:8080/
+

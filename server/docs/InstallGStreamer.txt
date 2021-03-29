@@ -1,0 +1,5 @@
+sudo apt-get update && sudo apt-get install --yes \
+gstreamer1.0-plugins-{good,bad,ugly} \
+gstreamer1.0-{libav,tools}
+
+gst-inspect-1.0  | grep vpx

@@ -1,0 +1,15 @@
+sudo npm install -g npm-check-updates| CMD ncu
+sudo npm install -g cost-of-modules| CMD cost-of-modules -> Mediasoup as ~677 MB -> worked great..
+sudo npm i -g download-size| CMD download-size mediasoup -> 37 MB
+sudo npm -g install howfat | howfat mediasoup -> gave time our error first time but did work 2nd run, gave 155 mb as result.
+
+sudo npm install uglify-js -save--dev
+sudo npm install -g modclean | modclean -n default:safe,default:caution -r
+sudo npm install -g node-prune | cd node_modules | node-prune
+sudo npm install -g minify-all | minify-all .
+
+sudo npm -g install package-size | - did not work on package-size mediasoup -> it gave error in compile
+
+sudo npm install -g source-map-explorer
+
+node --trace-deprecation node_modules/webpack/bin/webpack.js

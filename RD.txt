@@ -1,0 +1,4 @@
+run cs.sh from any directory to start the client
+run ss.sh from any directory to start the server
+
+check cn.sh if the clean node commands are commented, not always required to be force clean the cache, or remove npm modules as it consumes bandwidth

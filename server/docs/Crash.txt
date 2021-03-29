@@ -1,0 +1,29 @@
+Up on client side startRecord, server crashes with this error <check if the recording file location is accessible to server>
+
+ [length]: 23 ]
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:714:5)
+    at Socket._write (net.js:726:8)
+    at doWrite (_stream_writable.js:415:12)
+    at writeOrBuffer (_stream_writable.js:399:5)
+    at Socket.Writable.write (_stream_writable.js:299:11)
+    at Readable.ondata (_stream_readable.js:710:20)
+    at Readable.emit (events.js:198:13)
+    at Readable.read (_stream_readable.js:505:10)
+Emitted 'error' event at:
+    at errorOrDestroy (internal/streams/destroy.js:107:12)
+    at Socket.onerror (_stream_readable.js:734:7)
+    at Socket.emit (events.js:198:13)
+    at errorOrDestroy (internal/streams/destroy.js:107:12)
+    at onwriteError (_stream_writable.js:430:5)
+    at onwrite (_stream_writable.js:461:5)
+    at _destroy (internal/streams/destroy.js:49:7)
+    at Socket._destroy (net.js:614:3)
+    at Socket.destroy (internal/streams/destroy.js:37:8)
+    at afterWriteDispatched (internal/stream_base_commons.js:78:17)

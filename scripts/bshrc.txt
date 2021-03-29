@@ -1,0 +1,4 @@
+Put these two lines below in .bshrc file
+
+PROJ_ROOT=~/nag/fork/mediasoup3-record-demo
+source $PROJ_ROOT/prj.sh

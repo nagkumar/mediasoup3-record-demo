@@ -1,0 +1,7 @@
+nvm list
+nvm install v14.16.0
+npm-check
+npm list
+npm outdated --depth=3
+
+npm fund
