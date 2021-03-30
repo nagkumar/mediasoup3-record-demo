@@ -1,8 +1,8 @@
 . $(dirname $(realpath $0))/../../scripts/prepare.sh
 
 #RECORD_FILE_LOCATION_PATH=$dir_nm_path/files
-ncu -u
-rm *-lock.json
+#ncu -u
+#rm *-lock.json
 
 npm install
 #node src/server

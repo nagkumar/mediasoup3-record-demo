@@ -1,7 +1,7 @@
 . $(dirname $(realpath $0))/../../scripts/prepare.sh
 
 #ncu -u
-rm *-lock.json
+#rm *-lock.json
 npm install
 npm run build
 npm run dev
