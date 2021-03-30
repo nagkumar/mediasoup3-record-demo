@@ -1,5 +1,9 @@
-wsl --export Ubuntu E:\downloads\Softwares\linux\wsl2\Ubentu20.tar
-wsl --import Ubuntu E:\downloads\Softwares\linux\wsl2\Ubentu20.tar
+wsl --export Ubuntu E:\downloads\Softwares\os\linux\wsl2\Ubentu20.tar
+wsl --import Ubuntu "C:\Users\Raja Nagendra Kumar" E:\downloads\Softwares\os\linux\wsl2\Ubentu20.tar
 \\wsl$
 wsl --list
 wsl --shutdown
+
+wsl -d Ubuntu -u nagkumar
+
+wsl --unregister Ubuntu

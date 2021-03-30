@@ -46,3 +46,5 @@ sudo apt-get --purge remove guake
 add-apt-repository ppa:pitti/systemd
 
 ksysguard
+
+cd /mnt/c/temp/charity/abc/mediasoup3-record-demo/
