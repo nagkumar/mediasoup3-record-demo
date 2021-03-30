@@ -5,6 +5,8 @@ sudo ifconfig eth0 192.160.1.5 netmask 255.255.255.0 up
 sudo route add default gw 192.160.1.1
 ip addr show
 
+sudo apt install snapd
+
 sudo apt-get install -y kubuntu-desktop or sudo apt install ubuntu-desktop gnome
 sudo apt-get install xrdp
 sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
@@ -22,6 +24,7 @@ nvm
 npm
 node
 
+apt search systemd
 
 #sudo apt install ubuntu-restricted-extras
 
@@ -35,3 +38,11 @@ export PATH=$HOME/.cargo/bin:$PATH
 cargo install --features=ssl websocat
 
 192.160.1.5:3390
+
+sudo apt-get install guake //useless terminal
+sudo apt-get --purge remove guake
+
+
+add-apt-repository ppa:pitti/systemd
+
+ksysguard

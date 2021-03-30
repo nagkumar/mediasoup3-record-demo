@@ -3,13 +3,29 @@ systemctl list-unit-files --type=service
 sudo touch /etc/init.d/superscript
 sudo chmod 755 /etc/init.d/superscript
 
+
 sudo /etc/init.d/superscript start
 
 sudo update-rc.d superscript defaults
 
 find /etc/rc*.d -name superscript
 
-superscript.sh contents
+
+sudo touch /etc/systemd/system/superscript.service
+
+[Unit]
+Description=your service name
+
+[Service]
+Type=oneshot #or simple
+ExecStart=/etc/init.d/superscript
+
+[Install]
+WantedBy=multi-user.target
+
+sudo systemctl enable /etc/systemd/system/superscript.service now
+--------
+superscript contents
 
 #!/bin/bash
 sudo ifconfig eth0 192.160.1.5 netmask 255.255.255.0 up
