@@ -1,6 +1,6 @@
 sudo apt update && sudo apt -y upgrade
-sudo apt dist-upgrade
 sudo apt-get install -y  build-essential curl file git wget libssl-dev pkg-config net-tools snapd
+
 sudo apt-get install -y kubuntu-desktop #or sudo apt install ubuntu-desktop gnome
 sudo apt-get install xrdp
 sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
@@ -12,3 +12,7 @@ sudo systemctl enable xrdp
 sudo /etc/init.d/dbus start
 sudo /etc/init.d/xrdp start
 sudo /etc/init.d/xrdp status
+
+cp ../logins/bash_login ~/.bash_login
+cp ../logins/cust_bashrc ~/.cust_bashrc
+echo "source ~/.cust_bashrc" >> ~/.bashrc
