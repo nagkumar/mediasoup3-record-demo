@@ -37,7 +37,7 @@ curl https://sh.rustup.rs -sSf | sh
 export PATH=$HOME/.cargo/bin:$PATH
 cargo install --features=ssl websocat
 
-192.160.1.5:3390
+192.160.20.88:3390
 
 sudo apt-get install guake //useless terminal
 sudo apt-get --purge remove guake
@@ -48,3 +48,5 @@ add-apt-repository ppa:pitti/systemd
 ksysguard
 
 cd /mnt/c/temp/charity/abc/mediasoup3-record-demo/
+
+sudo service nginx start

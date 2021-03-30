@@ -5,4 +5,3 @@ sudo ip addr show
 
 sudo /etc/init.d/dbus start
 sudo /etc/init.d/xrdp start
-sudo service nginx start
