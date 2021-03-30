@@ -1,4 +1,4 @@
-export PATH=$PATH:$PROJ_ROOT/scripts:$PROJ_ROOT/app/scripts:$PROJ_ROOT/server/scripts:$PROJ_ROOT
+export PATH=$PATH:$PROJ_ROOT/scripts:$PROJ_ROOT/scripts/node:$PROJ_ROOT/app/scripts:$PROJ_ROOT/server/scripts:$PROJ_ROOT
 cd "$PROJ_ROOT" || exit
 IP_ADRS=172.17.27.101
 

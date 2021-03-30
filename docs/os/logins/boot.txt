@@ -36,4 +36,4 @@ crontab -e
 /var/spool/cron/crontabs
 
 #add this line to .bashrc
-source .cust_bashrc
+source ~/.cust_bashrc
