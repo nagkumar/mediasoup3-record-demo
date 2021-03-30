@@ -50,3 +50,5 @@ ksysguard
 cd /mnt/c/temp/charity/abc/mediasoup3-record-demo/
 
 sudo service nginx start
+
+mount | grep /mnt
