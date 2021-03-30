@@ -1,3 +1,4 @@
+#!/bin/bash
 npm-check
 npm list
 npm outdated --depth=3
