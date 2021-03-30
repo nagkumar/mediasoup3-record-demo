@@ -1,2 +1,1 @@
-call wsstop.bat
-wsl -d Ubuntu -u nagkumar
+wsl -d Ubuntu-20.04 -u nagkumar

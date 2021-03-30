@@ -1,3 +1,2 @@
 call wsstop.bat
-wsl --export Ubuntu E:\downloads\Softwares\os\linux\wsl2\Ubentu20.tar
-call wsstart.bat
+wsl --export Ubuntu-20.04 E:\downloads\Softwares\os\linux\wsl2\Ubuntu-20.04.tar
