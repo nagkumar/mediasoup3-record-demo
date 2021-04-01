@@ -1,5 +1,6 @@
+sudo apt-get clean
 sudo apt update && sudo apt -y upgrade
-sudo apt-get install -y  build-essential curl file git wget libssl-dev pkg-config net-tools snapd
+sudo apt-get install -y  build-essential curl file git wget libssl-dev pkg-config net-tools snapd netscript bluefish
 
 sudo apt-get install -y kubuntu-desktop #or sudo apt install ubuntu-desktop gnome
 sudo apt-get install xrdp
@@ -16,3 +17,4 @@ sudo /etc/init.d/xrdp status
 cp ../logins/bash_login ~/.bash_login
 cp ../logins/cust_bashrc ~/.cust_bashrc
 echo "source ~/.cust_bashrc" >> ~/.bashrc
+

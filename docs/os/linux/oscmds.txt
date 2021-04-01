@@ -20,3 +20,18 @@ cd /mnt/c/temp/charity/abc/mediasoup3-record-demo/
 
 sudo service nginx start
 mount | grep /mnt
+
+sudo nano /etc/apt/sources.list
+
+sudo add-apt-repository multiverse
+
+sudo apt purge netplan.io
+
+sudo service network-manager restart
+
+sudo apt-get install axel
+sudo add-apt-repository ppa:apt-fast/stable
+sudo apt-get update
+sudo apt-get -y install apt-fast
+sudo apt-get install -y apt-transport-https
+sudo apt-fast install -y systemd-genie
