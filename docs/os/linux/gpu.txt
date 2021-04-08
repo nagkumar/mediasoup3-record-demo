@@ -10,7 +10,7 @@ nvcc --version
 
 #Shift+Alt+F12+F12 - remove fliker of video
 glxinfo|egrep "OpenGL vendor|OpenGL renderer"
- sudo apt install mesa-utils
+sudo apt install mesa-utils
 sudo prime-select nvidia
 sudo apt-get install hardinfo
 

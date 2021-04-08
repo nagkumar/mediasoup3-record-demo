@@ -18,3 +18,8 @@ cp ../logins/bash_login ~/.bash_login
 cp ../logins/cust_bashrc ~/.cust_bashrc
 echo "source ~/.cust_bashrc" >> ~/.bashrc
 
+#python3
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install python3
+sudo link /bin/python3 /bin/python
