@@ -1,0 +1,41 @@
+apt search systemd
+#sudo apt install ubuntu-restricted-extras
+
+sudo apt-get --yes install cuda-toolkit-11-0 cuda-toolkit-10-2
+sudo apt-get install --yes --no-install-recommends cuda-10-2 libcudnn7=7.6.5.32-1+cuda10.2 libcudnn7-dev=7.6.5.32-1+cuda10.2
+sudo apt-get install --yes --no-install-recommends libnvinfer6=6.0.1-1+cuda10.2 libnvinfer-dev=6.0.1-1+cuda10.2 libnvinfer-plugin6=6.0.1-1+cuda10.2
+
+curl https://sh.rustup.rs -sSf | sh
+export PATH=$HOME/.cargo/bin:$PATH
+cargo install --features=ssl websocat
+
+192.160.20.88:3390
+
+sudo apt-get install guake //useless terminal
+sudo apt-get --purge remove guake
+
+ksysguard
+
+cd /mnt/c/temp/charity/abc/mediasoup3-record-demo/
+
+sudo service nginx start
+mount | grep /mnt
+
+sudo nano /etc/apt/sources.list
+
+sudo add-apt-repository multiverse
+
+sudo apt purge netplan.io
+
+sudo service network-manager restart
+
+sudo apt-get install axel
+sudo add-apt-repository ppa:apt-fast/stable
+sudo apt-get update
+sudo apt-get -y install apt-fast
+sudo apt-get install -y apt-transport-https
+sudo apt-fast install -y systemd-genie
+sudo apt --fix-broken install
+
+
+choco install lxrunoffline

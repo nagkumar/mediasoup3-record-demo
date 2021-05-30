@@ -1,0 +1,6 @@
+sudo mount -t cifs -o username=administrator,password=123456,sec=ntlm //ip/eeshare /mnt/eeshare/
+sudo mount -t drvfs -o username=root,sec=ntlm  g: /mnt/g -o metadata
+
+--mount=type=volume,src=source_volume,dst=/var/lib/destination_dir
+
+docker run -it -v c:\dev:/home --expose 4200 node-ng /bin/bash

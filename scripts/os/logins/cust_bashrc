@@ -1,0 +1,5 @@
+alias cls=clear
+
+#PROJ_ROOT=/mnt/g/DWork/starWI/research/mediasoup3-record-demo
+PROJ_ROOT=/mnt/g/DWork/starWI/main/8_main.edvora.com
+source $PROJ_ROOT/prj.sh
