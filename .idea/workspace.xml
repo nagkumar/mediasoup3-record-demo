@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="896e3e24-e6dc-4afd-b7ee-77a7b85c26a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/os/docker/DC.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/os/linux/gpu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/os/linux/gpu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/os/linux/upd.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docs/os/linux/upd.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/os/msoft.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/os/wsl/msoft.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/os/wsl/wse.bat" beforeDir="false" afterPath="$PROJECT_DIR$/docs/os/wsl/wse.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/os/wsl/wsi.bat" beforeDir="false" afterPath="$PROJECT_DIR$/docs/os/wsl/wsi.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/node/ni.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/node/ni.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +64,9 @@
       <workItem from="1617626988724" duration="867000" />
       <workItem from="1617852162184" duration="444000" />
       <workItem from="1617853392820" duration="620000" />
-      <workItem from="1617858346959" duration="1294000" />
+      <workItem from="1617858346959" duration="1733000" />
+      <workItem from="1618157078384" duration="369000" />
+      <workItem from="1622367341080" duration="853000" />
     </task>
     <servers />
   </component>

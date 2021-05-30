@@ -1,6 +1,6 @@
 sudo apt-get clean
 sudo apt update && sudo apt -y upgrade
-sudo apt-get install -y  build-essential curl file git wget libssl-dev pkg-config net-tools snapd netscript bluefish cifs-utils
+sudo apt-get install -y  build-essential curl file git wget libssl-dev pkg-config net-tools snapd netscript bluefish cifs-utils wireguard
 
 sudo apt-get install -y kubuntu-desktop #or sudo apt install ubuntu-desktop gnome
 sudo apt-get install xrdp

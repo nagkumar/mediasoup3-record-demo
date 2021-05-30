@@ -1,4 +1,4 @@
 alias cls=clear
 
-PROJ_ROOT=/mnt/c/temp/charity/abc/mediasoup3-record-demo
+PROJ_ROOT=/mnt/g/DWork/starWI/research/mediasoup3-record-demo
 source $PROJ_ROOT/prj.sh
