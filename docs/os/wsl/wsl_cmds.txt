@@ -1,3 +1,0 @@
-\\wsl$
-
-C:\temp\charity\V-WebRTC>"C:\Users\Raja Nagendra Kumar\AppData\Local\Microsoft\WindowsApps\ubuntu2004" config --default-user nagkumar

@@ -1,2 +1,0 @@
-sudo npm install uglify-js -save--dev
-sudo npm -g install package-size | - did not work on package-size mediasoup -> it gave error in compile
